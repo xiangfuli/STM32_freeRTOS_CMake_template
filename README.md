@@ -24,6 +24,7 @@ Directory
 │   ├── freeRTOS                          ->          free RTOS files
 │   │   ├── freeRTOS_port                 ->          macros used by different compilers
 │   └── system                            ->          (provided by users)
+│   │   ├── usb                           ->          user defined usb configuration
 └── src
     ├── ....
 ```

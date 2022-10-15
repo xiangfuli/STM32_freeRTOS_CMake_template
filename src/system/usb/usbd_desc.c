@@ -24,16 +24,16 @@
 #define USBD_VID                        0x0483
 
 /* Product ID */
-#define USBD_PID                        0x8000
+#define USBD_PID                        0x0001
 
 #define USBD_LANGID_STRING              0x409
-#define USBD_MANUFACTURER_STRING        "Robot Tinker"
+#define USBD_MANUFACTURER_STRING        "ST MicroController"
 
-#define USBD_PRODUCT_HS_STRING          "RT OPFlow vAlpha"
-#define USBD_SERIALNUMBER_HS_STRING     "8J39XBS6AMWS"
+#define USBD_PRODUCT_HS_STRING          "PRODUCT"
+#define USBD_SERIALNUMBER_HS_STRING     "000000000001"
 
-#define USBD_PRODUCT_FS_STRING          "RT OPFlow vAlpha"
-#define USBD_SERIALNUMBER_FS_STRING     "8J39XBS6AMWS"
+#define USBD_PRODUCT_FS_STRING          "PRODUCT"
+#define USBD_SERIALNUMBER_FS_STRING     "000000000001"
 
 #define USBD_CONFIGURATION_HS_STRING    "VCP Config"
 #define USBD_INTERFACE_HS_STRING        "VCP Interface"

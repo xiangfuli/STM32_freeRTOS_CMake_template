@@ -52,12 +52,6 @@ include_directories(
     include/freeRTOS
     include/freeRTOS/freeRTOS_port/gcc
     include/system
-    include/system/flow
-    include/system/storage
-    include/system/configs
-    include/system/messages
-    include/system/usb
-    include/system/sensors
 )
 
 file(GLOB_RECURSE SOURCES

@@ -52,6 +52,7 @@ include_directories(
     include/freeRTOS
     include/freeRTOS/freeRTOS_port/gcc
     include/system
+    include/system/usb
 )
 
 file(GLOB_RECURSE SOURCES
